@@ -12,6 +12,7 @@
     <modules>
         <module>currency-exchanger</module>
         <module>master-spring-cloud</module>
+        <module>currency-conversion-service</module>
     </modules>
 
 </project>
