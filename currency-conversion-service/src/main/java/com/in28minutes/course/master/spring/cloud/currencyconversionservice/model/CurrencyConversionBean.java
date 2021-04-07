@@ -2,11 +2,13 @@ package com.in28minutes.course.master.spring.cloud.currencyconversionservice.mod
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class CurrencyConversionBean {
     private Long id;
     private String from;
