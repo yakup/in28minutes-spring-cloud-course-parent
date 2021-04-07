@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.4</version>
+        <version>2.3.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.in28minutes.course.master.spring.cloud</groupId>
@@ -15,7 +15,7 @@
     <description>Currency conversion service for Master Spring Cloud Course</description>
     <properties>
         <java.version>11</java.version>
-        <spring-cloud.version>2020.0.2</spring-cloud.version>
+        <spring-cloud.version>Hoxton.SR5</spring-cloud.version>
     </properties>
     <dependencies>
         <dependency>
