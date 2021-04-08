@@ -13,6 +13,7 @@
         <module>currency-exchanger</module>
         <module>master-spring-cloud</module>
         <module>currency-conversion-service</module>
+        <module>netflix-eureka-naming-server</module>
     </modules>
 
 </project>
