@@ -13,10 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>zuul-api-gateway</name>
     <description>Zuul API Gateway for Master Spring Cloud course of in28Minutes</description>
-    <properties>
-        <java.version>11</java.version>
-        <!--<spring-cloud.version>2020.0.2</spring-cloud.version>-->
-    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -28,15 +25,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zuul</artifactId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
             <version>RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
